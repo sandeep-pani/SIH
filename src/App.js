@@ -14,7 +14,7 @@ function App() {
     <>
     <Router>
     <Navbar></Navbar>
-    <Routes basename={process.env.PUBLIC_URL}>
+    <Routes >
       <Route path='/' element={<div className='container my-3 mx-3'>
           <Home></Home>
             </div>}>
